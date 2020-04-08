@@ -1,5 +1,5 @@
 {% set name = "kcompletion" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcompletion-{{ version }}.tar.xz
-  sha256: 8f3399ada26dbcd420ab58dda9bfc0bb092279430f2444b07111f3a6f34b3d93
+  sha256: 642d68b4c472e11a8861a61238297633be288bfd72c13547707754f1ae2be33a
 
 build:
   number: 0
@@ -44,7 +44,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Powerful completion framework, including completion-enabled lineedit and combobox.'
+  summary: Powerful completion framework, including completion-enabled lineedit and combobox.
   description: |
     When typing filenames, email addresses and other text where the user often wants to
     select from existing data (including what they previously typed) rather than enter
