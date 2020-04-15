@@ -1,5 +1,5 @@
 {% set name = "kcompletion" %}
-{% set version = "5.68.0" %}
+{% set version = "5.69.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcompletion-{{ version }}.tar.xz
-  sha256: 642d68b4c472e11a8861a61238297633be288bfd72c13547707754f1ae2be33a
+  sha256: 02070a926d252ca8a29970764a39cf984e80e72a4260fe8086718e96c43c0e14
 
 build:
   number: 0
