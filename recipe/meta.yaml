@@ -1,5 +1,5 @@
 {% set name = "kcompletion" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kcompletion-{{ version }}.tar.xz
-  sha256: 72b0650e5ae9f30ad4ec30b55e660c826d93edfda0ef4f9436f226cbb8a9705a
+  sha256: 5bec7f31bab8eb724bfb01690bd1585b43eccca4e37c80cc3729af2f7c7b2875
 
 build:
   number: 0
@@ -41,9 +41,12 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kcompletion/html/index.html
-  license: LGPL-v2.1-or-later
-  license_family: GPL
-  license_file: COPYING.LIB
+  license: BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later
+  license_file:
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.1-or-later.txt
   summary: Powerful completion framework, including completion-enabled lineedit and combobox.
   description: |
     When typing filenames, email addresses and other text where the user often wants to
