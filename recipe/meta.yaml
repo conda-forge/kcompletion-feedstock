@@ -41,10 +41,9 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kcompletion/html/index.html
-  license: BSD-3-Clause AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-or-later
+  license: BSD-3-Clause AND LGPL-2.0-or-later AND LGPL-2.1-or-later
   license_file:
     - LICENSES/BSD-3-Clause.txt
-    - LICENSES/LGPL-2.0-only.txt
     - LICENSES/LGPL-2.0-or-later.txt
     - LICENSES/LGPL-2.1-or-later.txt
   summary: Powerful completion framework, including completion-enabled lineedit and combobox.
